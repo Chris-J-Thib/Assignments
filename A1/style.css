@@ -1,0 +1,28 @@
+#profilePicture {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    height: 50px;
+}
+
+.centered {
+    justify-content: center;
+    display: grid;
+}
+
+.background::before {
+    content: "";
+    background-image: url(./background.png);
+    opacity: 0.25;
+    position: absolute;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+}
