@@ -31,7 +31,7 @@ a {
     padding: 0px;
     width: 100%;
     position: fixed;
-    border-bottom: 5px ridge limegreen;
+    border-bottom: 1px ridge limegreen;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -47,7 +47,7 @@ a {
     line-height: 40px;
     margin-right: -4px;
     text-align: center;
-    border-right: 3px ridge limegreen;
+    border-right: 1px ridge limegreen;
 }
 
 .navbar a {
@@ -64,7 +64,7 @@ a {
 .content {
     background-color: rgba(255, 255, 255, .4);
     width: 45%;
-    border: 5px ridge limegreen;
+    border: 1px ridge limegreen;
     margin: auto;
     margin-bottom: 30%;
 }
